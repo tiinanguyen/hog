@@ -1,7 +1,7 @@
 # hog
 Simulator and multiple strategies dice game, for a project at UC Berkeley CS61A.
 
-Rules: \\
+Rules:  
 - Pig Out. If any of the dice outcomes is a 1, the current player's score for the turn is 1.
 
      Example 1: The current player rolls 7 dice, 5 of which are 1's. They score 1 point for the turn.
@@ -17,3 +17,8 @@ Rules: \\
 
      Example 1: The current player has a total score of 37 and the opponent has 92. The current player rolls two dice that total 9. The opponent's score (92) is exactly twice the player's new total score (46). These scores are swapped! The current player now has 92 points and the opponent has 46. The turn ends.
      Example 2: The current player has 91 and the opponent has 37. The current player rolls five dice that total 20. The current player has 111, which is 3 times 37, so the scores are swapped. The opponent ends the turn with 111 and wins the game.
+
+Running GUI from your terminal:  
+```
+python3 hog_gui.py
+```
